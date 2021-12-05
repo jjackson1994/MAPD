@@ -11,6 +11,6 @@ Walters Drive link
 
 https://drive.google.com/drive/folders/1dASbZEi4LeBrDj1fY94hjEhq4YMwwaAf
 
-Our Bouard will be either
+Our board will be either
 
 xc7a200tfbg676-1 or xc7a35tcsg324-1;
