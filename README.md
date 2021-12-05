@@ -17,3 +17,7 @@ xc7a200tfbg676-1 or xc7a35tcsg324-1;
 
 Other resources
 http://freerangefactory.org/pdf/df344hdh4h8kjfh3500ft2/free_range_vhdl.pdf
+
+Git 
+
+$ git push -u origin master
