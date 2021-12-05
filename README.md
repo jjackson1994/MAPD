@@ -10,3 +10,7 @@ https://drive.google.com/drive/folders/1Z0kCZoW8L592DAKeTI74q2IeYicK0AAL?usp=sha
 Walters Drive link
 
 https://drive.google.com/drive/folders/1dASbZEi4LeBrDj1fY94hjEhq4YMwwaAf
+
+Our Bouard will be either
+
+xc7a200tfbg676-1 or xc7a35tcsg324-1;
