@@ -21,4 +21,5 @@ http://freerangefactory.org/pdf/df344hdh4h8kjfh3500ft2/free_range_vhdl.pdf
 Git (keeping it simple, can add personal dev branches if need be) 
 
 git pull 
+
 git push -u origin master
