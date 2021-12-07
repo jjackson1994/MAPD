@@ -35,18 +35,19 @@ architecture Behavioral of baud_gen is
 begin
 
 baud_gen: process(clk) is  
-variable count: integer
-
+variable count : integer;
+variable max : integer;
 begin
+max:=868;
 if rising_edge(clk) then
-  count <= count + 1;
+  count := count + 1;
 end if;
   
-if count > 868 then
-  Q <= 1; wait 10ns; Q<=0;
+if count > max then
+  Q <= '1';
+  wait for 10 ns; --- wait can only be used in simulation, we have a sysclock pin 
+  Q<='0';
 end if;
-
-count <= 0;
   
 end baud_gen
 
