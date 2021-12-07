@@ -26,7 +26,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity baud_gen is
   Port (
         clk : in std_logic;
-          Q : out std_logic;
+          Q : out std_logic
           );
 end baud_gen;
 
