@@ -24,12 +24,28 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 
 entity baud_gen is
---  Port ( );
+  Port (
+        clk : in std_logic;
+          Q : out std_logic;
+          );
 end baud_gen;
 
 architecture Behavioral of baud_gen is
 
 begin
 
+baud_gen: process(clk) is  
+variable count: integer
+
+begin
+if rising_edge(clk) then
+  count <= count + 1;
+end if;
+  
+if count > 868 then
+  Q <= 1; wait 10ns; Q<=0;
+end if;
+  
+end baud_gen
 
 end Behavioral;
