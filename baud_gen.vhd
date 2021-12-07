@@ -45,6 +45,8 @@ end if;
 if count > 868 then
   Q <= 1; wait 10ns; Q<=0;
 end if;
+
+count <= 0;
   
 end baud_gen
 
