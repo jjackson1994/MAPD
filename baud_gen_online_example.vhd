@@ -1,5 +1,6 @@
 --
 --https://www.rfwireless-world.com/source-code/VHDL/Baud-Rate-Generator-vhdl-code.html
+--an event on a signal is a change of the signal's value.
 --
 library ieee;
 use ieee.std_logic_1164.all;
