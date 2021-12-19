@@ -1,6 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../transmitdaniel.srcs/sim_1/new/tb_transmitdaniel.vhd" \
-
-# Do not sort compile order
-nosort
