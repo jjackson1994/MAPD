@@ -21,9 +21,10 @@ http://freerangefactory.org/pdf/df344hdh4h8kjfh3500ft2/free_range_vhdl.pdf
 Git (keeping it simple, can add personal dev branches if need be) 
 
 git pull 
-
 git push -u origin master
-
 
 lectures merged together
 https://drive.google.com/file/d/1P3LB5ojx_66RQ6HVGliAnE0oEJpF-Wg7/view?usp=sharing
+
+Pin Maps and board info:
+https://digilent.com/reference/programmable-logic/arty-a7/reference-manual
