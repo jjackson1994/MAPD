@@ -19,6 +19,7 @@ Other resources
 http://freerangefactory.org/pdf/df344hdh4h8kjfh3500ft2/free_range_vhdl.pdf
 
 Constraint master file
+
 https://github.com/Digilent/digilent-xdc/blob/master/Arty-A7-35-Master.xdc
 https://github.com/Digilent/digilent-xdc/blob/master/Arty-A7-100-Master.xdc
 
