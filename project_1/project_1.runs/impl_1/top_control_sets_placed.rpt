@@ -1,0 +1,87 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Dec 14 13:55:00 2021
+| Host         : sbgat401 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    17 |
+| Unused register locations in slices containing registers |    97 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            9 |
+|      4 |            1 |
+|      7 |            1 |
+|      8 |            1 |
+|      9 |            1 |
+|     10 |            2 |
+|     11 |            2 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               7 |            4 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              31 |            9 |
+| Yes          | No                    | No                     |              33 |            8 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               8 |            8 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------+------------------------------------------------------------------+---------------------------------------------------------------+------------------+----------------+
+|     Clock Signal     |                           Enable Signal                          |                        Set/Reset Signal                       | Slice Load Count | Bel Load Count |
++----------------------+------------------------------------------------------------------+---------------------------------------------------------------+------------------+----------------+
+|  CLK100MHZ_IBUF_BUFG | uart_receiver_1/sampler_generator_1/FSM_onehot_state_reg[8]_0[6] | uart_receiver_1/received_data_s0                              |                1 |              1 |
+|  CLK100MHZ_IBUF_BUFG | uart_receiver_1/sampler_generator_1/FSM_onehot_state_reg[8]_0[4] | uart_receiver_1/received_data_s0                              |                1 |              1 |
+|  CLK100MHZ_IBUF_BUFG | uart_receiver_1/sampler_generator_1/FSM_onehot_state_reg[8]_0[5] | uart_receiver_1/received_data_s0                              |                1 |              1 |
+|  CLK100MHZ_IBUF_BUFG | uart_receiver_1/sampler_generator_1/FSM_onehot_state_reg[8]_0[7] | uart_receiver_1/received_data_s0                              |                1 |              1 |
+|  CLK100MHZ_IBUF_BUFG | uart_receiver_1/sampler_generator_1/FSM_onehot_state_reg[8]_0[0] | uart_receiver_1/received_data_s0                              |                1 |              1 |
+|  CLK100MHZ_IBUF_BUFG | uart_receiver_1/sampler_generator_1/FSM_onehot_state_reg[8]_0[3] | uart_receiver_1/received_data_s0                              |                1 |              1 |
+|  CLK100MHZ_IBUF_BUFG | uart_receiver_1/sampler_generator_1/FSM_onehot_state_reg[8]_0[1] | uart_receiver_1/received_data_s0                              |                1 |              1 |
+|  CLK100MHZ_IBUF_BUFG | uart_receiver_1/sampler_generator_1/FSM_onehot_state_reg[8]_0[2] | uart_receiver_1/received_data_s0                              |                1 |              1 |
+|  CLK100MHZ_IBUF_BUFG | uart_transmitter_1/uart_tx_i_1_n_0                               |                                                               |                1 |              1 |
+|  CLK100MHZ_IBUF_BUFG | uart_transmitter_1/baudrate_generator_1/E[0]                     |                                                               |                1 |              4 |
+|  CLK100MHZ_IBUF_BUFG |                                                                  |                                                               |                4 |              7 |
+|  CLK100MHZ_IBUF_BUFG | uart_receiver_1/sampler_generator_1/E[0]                         |                                                               |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG |                                                                  | uart_transmitter_1/baudrate_generator_1/counter[9]_i_1__0_n_0 |                2 |              9 |
+|  CLK100MHZ_IBUF_BUFG | uart_receiver_1/sampler_generator_1/FSM_onehot_state[9]_i_1_n_0  |                                                               |                2 |             10 |
+|  CLK100MHZ_IBUF_BUFG | uart_receiver_1/sampler_generator_1/baudrate_out_reg_0[0]        |                                                               |                2 |             10 |
+|  CLK100MHZ_IBUF_BUFG |                                                                  | uart_receiver_1/sampler_generator_1/counter[10]_i_1_n_0       |                5 |             11 |
+|  CLK100MHZ_IBUF_BUFG |                                                                  | uart_receiver_1/sampler_generator_1/clear                     |                2 |             11 |
++----------------------+------------------------------------------------------------------+---------------------------------------------------------------+------------------+----------------+
+
+
