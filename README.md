@@ -13,10 +13,16 @@ https://drive.google.com/drive/folders/1dASbZEi4LeBrDj1fY94hjEhq4YMwwaAf
 
 Our board will be either
 
-xc7a200tfbg676-1 or xc7a35tcsg324-1; actually its 100tcsg324-1
+xc7a35tcsg324-1 or xc7a100tcsg324-1
 
 Other resources
 http://freerangefactory.org/pdf/df344hdh4h8kjfh3500ft2/free_range_vhdl.pdf
+
+Constraint master file
+
+https://github.com/Digilent/digilent-xdc/blob/master/Arty-A7-35-Master.xdc
+
+https://github.com/Digilent/digilent-xdc/blob/master/Arty-A7-100-Master.xdc
 
 Git (keeping it simple, can add personal dev branches if need be) 
 
