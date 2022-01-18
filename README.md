@@ -3,6 +3,9 @@ As a rule of thumb the project code we have added will be found in
 project_name.src/sim or /sources  
 Might be better this way in order to track changes and share code
 
+UART VIDEO
+https://www.youtube.com/watch?v=Vh0KdoXaVgU
+
 My drive folder share link
 
 https://drive.google.com/drive/folders/1Z0kCZoW8L592DAKeTI74q2IeYicK0AAL?usp=sharing
