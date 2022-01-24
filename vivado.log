@@ -1,0 +1,153 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Jan 20 21:36:01 2022
+# Process ID: 3494
+# Current directory: /home/daniel/MAPD/MAPD
+# Command line: vivado
+# Log file: /home/daniel/MAPD/MAPD/vivado.log
+# Journal file: /home/daniel/MAPD/MAPD/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project JakeBubble /home/daniel/MAPD/MAPD/JakeBubble -part xc7a12ticsg325-1L
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2018.3/data/ip'.
+create_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:12 . Memory (MB): peak = 6315.668 ; gain = 50.711 ; free physical = 3290 ; free virtual = 7411
+set_property target_language VHDL [current_project]
+set_property simulator_language VHDL [current_project]
+add_files -norecurse {/home/daniel/MAPD/MAPDnoGit2/bubble_sort_jake/UART_RX.vhd /home/daniel/MAPD/MAPDnoGit2/bubble_sort_jake/top.vhd /home/daniel/MAPD/MAPDnoGit2/bubble_sort_jake/UART_TX.vhd /home/daniel/MAPD/MAPDnoGit2/bubble_sort_jake/bubble_sort.vhd}
+add_files -fileset constrs_1 -norecurse /home/daniel/MAPD/MAPDnoGit2/bubble_sort_jake/master_const.xdc
+update_compile_order -fileset sources_1
+open_project /home/daniel/MAPD/myworld/myworld.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:09 . Memory (MB): peak = 6471.191 ; gain = 26.016 ; free physical = 2507 ; free virtual = 6816
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.3
+  **** Build date : Dec  6 2018-23:53:53
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210319A92C61A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210319A92C61A]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210319A92C61A
+set_property PROGRAM.FILE {/home/daniel/MAPD/myworld/myworld.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {/home/daniel/MAPD/myworld/myworld.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Thu Jan 20 23:13:35 2022] Launched synth_1...
+Run output will be captured here: /home/daniel/MAPD/myworld/myworld.runs/synth_1/runme.log
+[Thu Jan 20 23:13:35 2022] Launched impl_1...
+Run output will be captured here: /home/daniel/MAPD/myworld/myworld.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {/home/daniel/MAPD/myworld/myworld.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Thu Jan 20 23:28:17 2022] Launched synth_1...
+Run output will be captured here: /home/daniel/MAPD/myworld/myworld.runs/synth_1/runme.log
+[Thu Jan 20 23:28:17 2022] Launched impl_1...
+Run output will be captured here: /home/daniel/MAPD/myworld/myworld.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+open_run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 7537.438 ; gain = 144.773 ; free physical = 1475 ; free virtual = 5696
+INFO: [Common 17-344] 'open_run' was cancelled
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {/home/daniel/MAPD/myworld/myworld.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+current_project JakeBubble
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Jan 21 00:13:36 2022] Launched synth_1...
+Run output will be captured here: /home/daniel/MAPD/MAPD/JakeBubble/JakeBubble.runs/synth_1/runme.log
+[Fri Jan 21 00:13:36 2022] Launched impl_1...
+Run output will be captured here: /home/daniel/MAPD/MAPD/JakeBubble/JakeBubble.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Jan 21 00:17:07 2022] Launched synth_1...
+Run output will be captured here: /home/daniel/MAPD/MAPD/JakeBubble/JakeBubble.runs/synth_1/runme.log
+[Fri Jan 21 00:17:07 2022] Launched impl_1...
+Run output will be captured here: /home/daniel/MAPD/MAPD/JakeBubble/JakeBubble.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Jan 21 00:36:51 2022] Launched synth_1...
+Run output will be captured here: /home/daniel/MAPD/MAPD/JakeBubble/JakeBubble.runs/synth_1/runme.log
+[Fri Jan 21 00:36:51 2022] Launched impl_1...
+Run output will be captured here: /home/daniel/MAPD/MAPD/JakeBubble/JakeBubble.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Jan 21 00:46:55 2022] Launched synth_1...
+Run output will be captured here: /home/daniel/MAPD/MAPD/JakeBubble/JakeBubble.runs/synth_1/runme.log
+[Fri Jan 21 00:46:55 2022] Launched impl_1...
+Run output will be captured here: /home/daniel/MAPD/MAPD/JakeBubble/JakeBubble.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Jan 21 00:53:48 2022] Launched synth_1...
+Run output will be captured here: /home/daniel/MAPD/MAPD/JakeBubble/JakeBubble.runs/synth_1/runme.log
+[Fri Jan 21 00:53:48 2022] Launched impl_1...
+Run output will be captured here: /home/daniel/MAPD/MAPD/JakeBubble/JakeBubble.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Jan 21 01:02:51 2022] Launched synth_1...
+Run output will be captured here: /home/daniel/MAPD/MAPD/JakeBubble/JakeBubble.runs/synth_1/runme.log
+[Fri Jan 21 01:02:51 2022] Launched impl_1...
+Run output will be captured here: /home/daniel/MAPD/MAPD/JakeBubble/JakeBubble.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Jan 21 01:09:36 2022] Launched synth_1...
+Run output will be captured here: /home/daniel/MAPD/MAPD/JakeBubble/JakeBubble.runs/synth_1/runme.log
+[Fri Jan 21 01:09:37 2022] Launched impl_1...
+Run output will be captured here: /home/daniel/MAPD/MAPD/JakeBubble/JakeBubble.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Jan 21 01:23:46 2022] Launched synth_1...
+Run output will be captured here: /home/daniel/MAPD/MAPD/JakeBubble/JakeBubble.runs/synth_1/runme.log
+[Fri Jan 21 01:23:46 2022] Launched impl_1...
+Run output will be captured here: /home/daniel/MAPD/MAPD/JakeBubble/JakeBubble.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Jan 21 01:27:27 2022] Launched synth_1...
+Run output will be captured here: /home/daniel/MAPD/MAPD/JakeBubble/JakeBubble.runs/synth_1/runme.log
+[Fri Jan 21 01:27:28 2022] Launched impl_1...
+Run output will be captured here: /home/daniel/MAPD/MAPD/JakeBubble/JakeBubble.runs/impl_1/runme.log
+close_project
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source /home/daniel/MAPD/MAPD/JakeBubble/JakeBubble.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Jan 21 01:32:21 2022...
+close_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 7717.500 ; gain = 0.000 ; free physical = 1413 ; free virtual = 5250
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jan 21 01:32:35 2022...

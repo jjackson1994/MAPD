@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Jan 21 01:32:18 2022
+# Process ID: 36478
+# Current directory: /home/daniel/MAPD/MAPD
+# Command line: wbtcv -mode batch -source /home/daniel/MAPD/MAPD/JakeBubble/JakeBubble.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: /home/daniel/MAPD/MAPD/webtalk.log
+# Journal file: /home/daniel/MAPD/MAPD/webtalk.jou
+#-----------------------------------------------------------
+source /home/daniel/MAPD/MAPD/JakeBubble/JakeBubble.hw/webtalk/labtool_webtalk.tcl -notrace
