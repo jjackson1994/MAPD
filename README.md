@@ -46,5 +46,6 @@ In the tab "Scope" you should find a hierarchy of the simulation entities. There
 I hope to have been clear. In case I was not, please let me know.
 
 Best,
+![alt text](https://github.com/jjackson1994/MAPD/blob/main/internalsignals.png)
 
 
