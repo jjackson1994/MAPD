@@ -37,3 +37,14 @@ https://drive.google.com/file/d/1P3LB5ojx_66RQ6HVGliAnE0oEJpF-Wg7/view?usp=shari
 
 Pin Maps and board info:
 https://digilent.com/reference/programmable-logic/arty-a7/reference-manual
+
+How to look at internal signals in a test bench
+Hi Daniel,
+
+in simulation you can look at all the internal signals, not only at the ports on the top.
+In the tab "Scope" you should find a hierarchy of the simulation entities. There is the top entity of the testbench and then the DUT and also other instances in case there are other components inside the DUT. If you click on a particular component (for instance on DUT) you should find in the window "Object" all the list of internal signals of that component. Then you can drag and drop a signal on the waveform window under the column "Name". Finally you can relaunch the simulation clicking on the icon with the circular arrow.
+I hope to have been clear. In case I was not, please let me know.
+
+Best,
+
+
