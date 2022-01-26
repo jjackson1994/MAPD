@@ -10,7 +10,7 @@ https://www.youtube.com/watch?v=Vh0KdoXaVgU
 
 Simulation set up 
 
-<img src="bs_in_operation.PNG.jpg" alt="drawing" width="200"/>
+<img src="bs_in_operation.PNG" alt="drawing" width="200"/>
 
 
 My drive folder share link
