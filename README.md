@@ -8,6 +8,11 @@ Important for everyone to watch this so they can understand the design of the co
 UART VIDEO
 https://www.youtube.com/watch?v=Vh0KdoXaVgU
 
+Simulation set up 
+
+<img src="bs_in_operation.PNG.jpg" alt="drawing" width="200"/>
+
+
 My drive folder share link
 
 https://drive.google.com/drive/folders/1Z0kCZoW8L592DAKeTI74q2IeYicK0AAL?usp=sharing
