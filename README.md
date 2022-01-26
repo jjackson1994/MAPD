@@ -55,4 +55,17 @@ I hope to have been clear. In case I was not, please let me know.
 Best,
 ![alt text](https://github.com/jjackson1994/MAPD/blob/main/internalsignals.png)
 
+Tasks for mapd
 
+   0.  Alter Jake’s code so it works with arrays of different sizes.
+I will do this tonight. 
+
+1. Write a python script that compares a python bubble sort, np.sort() and the fpga bubble sort in terms of speed. With graphs of number of items to be sorted vs time taken to sort. Also include versions of the fpga stats with and without transfer time. Transfer time = 868clock cycles per bit*10ns per bit*8bits per byte*N bytes(items to be sorted)*2(for transmission and reception)  ns
+2. Write about the findings in the report:
+    1. Results section, statement of the results and show graphs. 
+    2. conclusion section, about wether or not it is worth performing the algorithm on the fpga vs the computer.
+
+Maybe… Me and Jake do above. Mariam Walter and Khadija do below, That way everyone has an understanding of the code for when we come to answer questions on it.
+
+1. Draw a schematic of the project components transmitter, receiver bubble sort, how they are linked together. Include them all as a single entity and how the entire entity is linked to the clock and tx / rx of the board. How this links into the constraints file.
+2. Present and explain code in the report. Transmitter, receiver, bubble sort, (maybe, test bench) - Including what a state machine is. Explain the function of each state in the code. Not needed to explain each line of code or function used. 
