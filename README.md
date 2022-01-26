@@ -1,7 +1,9 @@
 # MAPD
-As a rule of thumb the project code we have added will be found in 
-project_name.src/sim or /sources  
-Might be better this way in order to track changes and share code
+
+Working Project Files  
+https://drive.google.com/drive/folders/1kqucmPUbHc_j8qC7jdYiRw94pCtD4wTg?usp=sharing  
+ 
+Important for everyone to watch this so they can understand the design of the code 
 
 UART VIDEO
 https://www.youtube.com/watch?v=Vh0KdoXaVgU
