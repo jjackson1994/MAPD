@@ -43,7 +43,7 @@ architecture bs of bubble_sort is
       signal led_wait_index : integer range 0 to 500000000:= 0;
       signal print_wait_index : integer range 0 to 868:= 0;
       
-      --bs swaping memory
+      --bs swapping memory
       signal bs_mem : std_logic_vector(7 downto 0) := (others => '0');   
       signal byte_sent : integer range 0 to 1:= 0;  
 begin
