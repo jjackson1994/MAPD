@@ -165,7 +165,7 @@ begin
        
        --cycles taken is used for performance monitoring.
        when s_cycles_taken => 
-       --This state will repeatedly send the number 2 the number of clock cycles the bubble sort took to complete.
+       --This state will repeatedly send the number to the number of clock cycles the bubble sort took to complete.
        --This method was the simplest way of overcoming the 255 number size restriction of an 8 bit integer.
           if cycles_taken > 0 then  
              if i_bs_TX_Active = '0' then -- dont send when trasmitter is busy
