@@ -1,0 +1,194 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+Note: '0'
+Time: 17360 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 26040 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 34720 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 43400 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 52080 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 60760 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 69440 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 78120 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 86800 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 95480 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 121520 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 130200 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 138880 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 147560 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 156240 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 164920 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 173600 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 182280 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 190960 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 199640 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 225680 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 234360 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 243040 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 251720 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 260400 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 269080 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 277760 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 286440 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 295120 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 303800 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 329840 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 338520 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 347200 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 355880 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 364560 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 373240 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 381920 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 390600 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 399280 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 407960 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 434 us  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 442680 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 451360 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 460040 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 468720 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 477400 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 486080 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 494760 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 503440 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 512120 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 538160 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 546840 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 555520 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 564200 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 572880 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 581560 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 590240 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 598920 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 607600 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 616280 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 642320 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 651 us  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 659680 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 668360 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 677040 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 685720 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 694400 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 703080 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 711760 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 720440 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 746480 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 755160 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 763840 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 772520 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 781200 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 789880 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 798560 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 807240 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 815920 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 824600 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 850640 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 859320 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 868 us  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 876680 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 885360 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 894040 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 902720 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 911400 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 920080 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 928760 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 954800 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 963480 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 972160 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '0'
+Time: 980840 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 989520 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd
+Note: '1'
+Time: 998200 ns  Iteration: 0  Process: /tb_top/main  File: /home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd

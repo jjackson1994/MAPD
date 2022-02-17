@@ -46,9 +46,6 @@ architecture bs of bubble_sort is
       --Used to measure performance
       signal cycles_taken : integer range 0 to MAX_DATA_SIZE**2 := 0;
       
-      --bs swapping memory
-      signal bs_mem : std_logic_vector(7 downto 0) := (others => '0'); 
-      
       --Used to wait for a byte to finish sending before updating o_bs_byte
       --i_bs_Active is only high while sending but not while a byte is waiting to be sent
       --This leads to some bytes being skipped. byte_sent resolves the issue.
@@ -110,12 +107,11 @@ begin
        when s_bubble_sort =>
        o_bs_LED2 <= '1';
          cycles_taken <= cycles_taken + 1;
-         if bs_index < DATA_SIZE then 
+         if bs_index < DATA_SIZE - 1 then 
               
             if w_data_array(bs_index) >  w_data_array(bs_index+1) then --swap
-               bs_mem <= w_data_array(bs_index);
                w_data_array(bs_index) <= w_data_array(bs_index+1);
-               w_data_array(bs_index+1) <= bs_mem;
+               w_data_array(bs_index+1) <= w_data_array(bs_index);
                sort_num <= 0; 
             else
                sort_num <= sort_num+1;
@@ -123,7 +119,7 @@ begin
             bs_index <= bs_index+1;
          else -- now at full data size
              
-             if sort_num = bs_index then  -- can only happen if no swaps occured as due to reset of sort_num 
+             if sort_num = DATA_SIZE - 1 then  -- can only happen if no swaps occured as due to reset of sort_num 
                 sort_num <= 0; --reset for next time
                 bs_index <= 0;
                 
@@ -209,6 +205,4 @@ begin
     end if;
   end process p_bubble_sort;
  end bs;
-
-
  

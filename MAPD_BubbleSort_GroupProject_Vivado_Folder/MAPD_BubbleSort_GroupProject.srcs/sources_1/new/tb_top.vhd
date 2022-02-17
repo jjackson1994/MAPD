@@ -30,14 +30,14 @@ DUT : top port map(CLK100MHZ => CLK100MHZ, uart_txd_in => uart_txd_in, uart_rxd_
 main : process --set data size in the top in 8 when runing the sim 
     variable a : std_logic_vector(9 downto 0) := '1' & std_logic_vector(to_unsigned(105, 8)) & '0';
     variable b : std_logic_vector(9 downto 0) := '1' & std_logic_vector(to_unsigned(8, 8)) & '0';
-    variable c : std_logic_vector(9 downto 0) := '1' & std_logic_vector(to_unsigned(78, 8)) & '0';
-    variable d : std_logic_vector(9 downto 0) := '1' & std_logic_vector(to_unsigned(4, 8)) & '0';
-    variable e : std_logic_vector(9 downto 0) := '1' & std_logic_vector(to_unsigned(30, 8)) & '0';
-    variable f : std_logic_vector(9 downto 0) := '1' & std_logic_vector(to_unsigned(9, 8)) & '0';
-    variable g : std_logic_vector(9 downto 0) := '1' & std_logic_vector(to_unsigned(47, 8)) & '0';
-    variable h : std_logic_vector(9 downto 0) := '1' & std_logic_vector(to_unsigned(56, 8)) & '0';
-    variable i : std_logic_vector(9 downto 0) := '1' & std_logic_vector(to_unsigned(12, 8)) & '0';
-    variable j : std_logic_vector(9 downto 0) := '1' & std_logic_vector(to_unsigned(69, 8)) & '0';
+    variable c : std_logic_vector(9 downto 0) := '1' & std_logic_vector(to_unsigned(11, 8)) & '0';
+    variable d : std_logic_vector(9 downto 0) := '1' & std_logic_vector(to_unsigned(33, 8)) & '0';
+    variable e : std_logic_vector(9 downto 0) := '1' & std_logic_vector(to_unsigned(22, 8)) & '0';
+    variable f : std_logic_vector(9 downto 0) := '1' & std_logic_vector(to_unsigned(44, 8)) & '0';
+    variable g : std_logic_vector(9 downto 0) := '1' & std_logic_vector(to_unsigned(55, 8)) & '0';
+    variable h : std_logic_vector(9 downto 0) := '1' & std_logic_vector(to_unsigned(66, 8)) & '0';
+    variable i : std_logic_vector(9 downto 0) := '1' & std_logic_vector(to_unsigned(77, 8)) & '0';
+    variable j : std_logic_vector(9 downto 0) := '1' & std_logic_vector(to_unsigned(88, 8)) & '0';
     variable data : a_std_v := (a,b,c,d,e,f,g,h,i,j);
 
 begin--begin main
@@ -47,9 +47,11 @@ begin--begin main
         uart_txd_in <= '1'; wait for 8680 ns; --idle
         for j in 0 to 9 loop
             uart_txd_in <= data(i)(j); 
-            uart_txd_in_vec <= data(i)(1) & data(i)(2) & data(i)(3) & data(i)(4) & data(i)(5) & data(i)(6) & data(i)(7) & data(i)(8);
+            --uart_txd_in_vec <= data(i)(1) & data(i)(2) & data(i)(3) & data(i)(4) & data(i)(5) & data(i)(6) & data(i)(7) & data(i)(8);
+            uart_txd_in_vec <= data(i)(8 downto 1);
             wait for 8680 ns;
             report(std_logic'Image(uart_txd_in));
+
         end loop;
         uart_txd_in <= '1'; wait for 8680 ns; --idle
     end loop;   

@@ -1,0 +1,597 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Thu Feb 17 19:35:08 2022
+| Host         : daniel-HP-Pavilion-15-Notebook-PC running 64-bit Ubuntu 20.04.3 LTS
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a100t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |   528 |
+| Unused register locations in slices containing registers |   114 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |           13 |
+|      6 |            1 |
+|      7 |            1 |
+|      8 |          505 |
+|     10 |            2 |
+|    16+ |            6 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              20 |           13 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |            4161 |         1686 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              49 |           20 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------+--------------------------------------------------+--------------------------------------+------------------+----------------+
+|     Clock Signal     |                   Enable Signal                  |           Set/Reset Signal           | Slice Load Count | Bel Load Count |
++----------------------+--------------------------------------------------+--------------------------------------+------------------+----------------+
+|  CLK100MHZ_IBUF_BUFG | UART_RX_1/r_RX_Byte[4]_i_1_n_0                   |                                      |                1 |              1 |
+|  CLK100MHZ_IBUF_BUFG | UART_RX_1/r_RX_Byte[3]_i_1_n_0                   |                                      |                1 |              1 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/o_bs_LED3_i_1_n_0                  |                                      |                1 |              1 |
+|  CLK100MHZ_IBUF_BUFG | UART_RX_1/r_RX_Byte[5]_i_1_n_0                   |                                      |                1 |              1 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/o_bs_LED2_i_1_n_0                  |                                      |                1 |              1 |
+|  CLK100MHZ_IBUF_BUFG | UART_RX_1/r_RX_Byte[1]_i_1_n_0                   |                                      |                1 |              1 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/o_bs_LED1_i_1_n_0                  |                                      |                1 |              1 |
+|  CLK100MHZ_IBUF_BUFG | UART_RX_1/r_RX_Byte[2]_i_1_n_0                   |                                      |                1 |              1 |
+|  CLK100MHZ_IBUF_BUFG | UART_RX_1/r_RX_Byte[0]_i_1_n_0                   |                                      |                1 |              1 |
+|  CLK100MHZ_IBUF_BUFG | UART_RX_1/r_RX_Byte[6]_i_1_n_0                   |                                      |                1 |              1 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/o_bs_LED0_i_1_n_0                  |                                      |                1 |              1 |
+|  CLK100MHZ_IBUF_BUFG | UART_RX_1/r_RX_Byte[7]_i_1_n_0                   |                                      |                1 |              1 |
+|  CLK100MHZ_IBUF_BUFG | UART_TX_1/o_TX_Serial_i_1_n_0                    |                                      |                1 |              1 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/sort_num                           | bubble_sort_1/sort_num[7]_i_1_n_0    |                4 |              6 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/r_DV_Count                         | bubble_sort_1/r_DV_Count[7]_i_1_n_0  |                2 |              7 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[171][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[172][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[173][7]_i_1_n_0       |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[169][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[170][7]_i_1_n_0       |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[16][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[181][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[174][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[175][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[176][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[177][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[178][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[179][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[17][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[180][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[154][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[168][7]_i_1_n_0       |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[167][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[166][7]_i_1_n_0       |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[165][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[164][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[163][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[162][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[161][7]_i_1_n_0       |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[160][7]_i_1_n_0       |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[15][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[159][7]_i_1_n_0       |                                      |                6 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[158][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[157][7]_i_1_n_0       |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[156][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[155][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[20][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[197][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[98]_160         |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[209][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[208][7]_i_1_n_0       |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[207][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[206][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[205][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[204][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[203][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[202][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[201][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[200][7]_i_1_n_0       |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[1][7]_i_1_n_0         |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[19][7]_i_1_n_0        |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[199][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[198][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[182][7]_i_1_n_0       |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[196][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[195][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[194][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[193][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[192][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[191][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[190][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[18][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[189][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[188][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[187][7]_i_1_n_0       |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[186][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[185][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[184][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[183][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[110][7]_i_1_n_0       |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[124][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[123][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[122][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[121][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[120][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[11][7]_i_1_n_0        |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[119][7]_i_1_n_0       |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[118][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[117][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[116][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[115][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[114][7]_i_1_n_0       |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[113][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[112][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[111][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[125][7]_i_1_n_0       |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[10][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[109][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[108][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[107][7]_i_1_n_0       |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[106][7]_i_1_n_0       |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[105][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[104][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[103][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[102][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[101][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[100][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[0][7]_i_1_n_0         |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[9]_8            |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[99]_225         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[91]_21          |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[139][7]_i_1_n_0       |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[152][7]_i_1_n_0       |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[151][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[150][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[14][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[149][7]_i_1_n_0       |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[148][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[147][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[146][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[145][7]_i_1_n_0       |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[144][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[143][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[142][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[141][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[140][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[13][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[153][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[138][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[137][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[136][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[135][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[134][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[133][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[132][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[131][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[130][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[12][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[129][7]_i_1_n_0       |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[128][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[127][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[126][7]_i_1_n_0       |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[57][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[70][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[6][7]_i_1_n_0         |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[69][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[68][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[67][7]_i_1_n_0        |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[66][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[65][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[64][7]_i_1_n_0        |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[63][7]_i_1_n_0        |                                      |                7 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[62][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[61][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[60][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[5][7]_i_1_n_0         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[59][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[58][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[71][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[56][7]_i_1_n_0        |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[55][7]_i_1_n_0        |                                      |                6 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[54][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[53][7]_i_1_n_0        |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[52][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[51][7]_i_1_n_0        |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[50][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[4][7]_i_1_n_0         |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[49][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[48][7]_i_1_n_0        |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[47][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[46][7]_i_1_n_0        |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[45][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[44][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[43][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[86][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[9][7]_i_1_n_0         |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[99][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[98][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[97][7]_i_1_n_0        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[96][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[95][7]_i_1_n_0        |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[94][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[93][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[92][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[91][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[90][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[8][7]_i_1_n_0         |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[89][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[88][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[87][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[42][7]_i_1_n_0        |                                      |                6 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[85][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[84][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[83][7]_i_1_n_0        |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[82][7]_i_1_n_0        |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[81][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[80][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[7][7]_i_1_n_0         |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[79][7]_i_1_n_0        |                                      |                7 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[78][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[77][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[76][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[75][7]_i_1_n_0        |                                      |                7 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[74][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[73][7]_i_1_n_0        |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[72][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[225][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[239][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[238][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[237][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[236][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[235][7]_i_1_n_0       |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[234][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[233][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[232][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[231][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[230][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[22][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[229][7]_i_1_n_0       |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[228][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[227][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[226][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[23][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[224][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[223][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[222][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[221][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[220][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[21][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[219][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[218][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[217][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[216][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[215][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[214][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[213][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[212][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[211][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[28][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[41][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[40][7]_i_1_n_0        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[3][7]_i_1_n_0         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[39][7]_i_1_n_0        |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[38][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[37][7]_i_1_n_0        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[36][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[35][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[34][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[33][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[32][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[31][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[30][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[2][7]_i_1_n_0         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[29][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[210][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[27][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[26][7]_i_1_n_0        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[25][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[250][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[24][7]_i_1_n_0        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[249][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[248][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[247][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[246][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[245][7]_i_1_n_0       |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[244][7]_i_1_n_0       |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[243][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[242][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[241][7]_i_1_n_0       |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/w_data_array[240][7]_i_1_n_0       |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[168]_44         |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[181]_68         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[180]_111        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[17]_101         |                                      |                1 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[179]_217        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[178]_115        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[177]_63         |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[176]_66         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[175]_41         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[174]_39         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[173]_48         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[172]_87         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[171]_190        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[170]_42         |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[16]_240         |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[169]_43         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[182]_120        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[167]_51         |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[166]_45         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[165]_46         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[164]_195        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[163]_49         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[162]_47         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[161]_50         |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[160]_196        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[15]_0           |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[159]_94         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[158]_100        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[157]_210        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[156]_208        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[155][7]_i_1_n_0 |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[154]_95         |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[196]_119        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[209]_71         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[208]_73         |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[207]_171        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[206]_137        |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[205]_142        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[204]_143        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[203]_80         |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[202]_84         |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[201]_172        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[200]_74         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[1]_2            |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[19]_233         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[199]_109        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[198]_180        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[197]_114        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[153]_96         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[195]_173        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[194]_174        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[193]_175        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[192]_132        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[191]_75         |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[190]_88         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[18]_102         |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[189]_65         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[188]_69         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[187]_189        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[186]_127        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[185]_64         |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[184]_67         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[183]_218        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[110]_138        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[124]_130        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[123]_188        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[122]_128        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[121]_79         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[120]_207        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[11]_10          |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[119]_226        |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[118]_146        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[117]_147        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[116]_229        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[115]_222        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[114]_223        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[113]_224        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[112]_131        |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[111]_153        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[125]_129        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[10]_9           |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[109]_144        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[108]_154        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[107]_187        |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[106]_155        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[105]_156        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[104]_157        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[103]_148        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[102]_158        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[101]_159        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[100]_197        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[0]_1            |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/o_bs_Byte[7]_i_1_n_0               |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | UART_RX_1/E[0]                                   |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | UART_TX_1/r_TX_Data_0                            |                                      |                1 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[139]_194        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[152]_97         |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[151]_121        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[150]_98         |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[14][7]_i_1_n_0  |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[149]_99         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[148]_116        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[147]_219        |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[146]_122        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[145]_123        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[144]_234        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[143]_40         |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[142]_93         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[141]_92         |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[140]_106        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[13]_12          |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[96][7]_i_1_n_0  |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[138]_105        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[137]_204        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[136]_104        |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[135]_91         |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[134]_215        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[133]_108        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[132]_110        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[131]_214        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[130][7]_i_1_n_0 |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[12]_11          |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[129]_107        |                                      |                6 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[128]_124        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[127]_125        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[126]_164        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[53]_221         |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[67]_33          |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[66]_16          |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[65]_13          |                                      |                7 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[64]_35          |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[63]_198         |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[62]_184         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[61]_211         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[60]_182         |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[5]_6            |                                      |                1 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[59]_185         |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[58]_199         |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[57]_209         |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[56]_206         |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[55]_216         |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[54]_220         |                                      |                6 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[68]_181         |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[52]_235         |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[51]_200         |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[50]_237         |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[4]_5            |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[49]_236         |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[48]_183         |                                      |                7 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[47]_186         |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[46][7]_i_1_n_0  |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[45]_58          |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[44]_60          |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[43]_53          |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[42]_54          |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[41]_55          |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[40]_57          |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[81]_15          |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[97]_161         |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[95]_23          |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[94]_22          |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[93]_212         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[92]_24          |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[90]_25          |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[8]_7            |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[89]_26          |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[88]_27          |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[87]_20          |                                      |                6 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[86]_28          |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[85]_29          |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[84]_30          |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[83]_227         |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[82]_18          |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[210]_118        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[80]_31          |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[7][7]_i_1_n_0   |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[79]_176         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[78]_34          |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[77]_165         |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[76]_19          |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[75]_32          |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[74]_166         |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[73]_167         |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[72]_83          |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[71]_177         |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[70]_17          |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[6][7]_i_1_n_0   |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[69]_14          |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[223]_168        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[237]_151        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[236]_89         |                                      |                6 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[235]_192        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[234]_112        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[233]_191        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[232]_86         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[231]_152        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[230]_133        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[22]_239         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[229]_140        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[228]_178        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[227]_232        |                                      |                6 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[226]_117        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[225]_70         |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[224]_72         |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[39]_52          |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[222]_202        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[221]_113        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[220]_169        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[21]_238         |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[219]_193        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[218]_78         |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[217]_81         |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[216]_85         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[215]_77         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[214]_136        |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[213]_141        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[212]_179        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[211]_170        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[20][7]_i_1_n_0  |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[239]_149        |                                      |                6 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[3]_4            |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[38]_36          |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[37]_59          |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[36]_61          |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[35]_56          |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[34]_38          |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[33]_62          |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[32]_37          |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[31]_201         |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[30]_203         |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[2]_3            |                                      |                1 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[29][7]_i_1_n_0  |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[28]_230         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[27]_90          |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[26]_213         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[250]_162        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[238]_150        |                                      |                5 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[23]_228         |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[240]_126        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[241]_103        |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[242]_135        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[243]_231        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[244]_145        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[245]_139        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[246]_134        |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[247]_76         |                                      |                4 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[248]_82         |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[249]_163        |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[24][7]_i_1_n_0  |                                      |                2 |              8 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/recived_data_array[25]_205         |                                      |                3 |              8 |
+|  CLK100MHZ_IBUF_BUFG | UART_TX_1/r_Clk_Count_1                          | UART_TX_1/r_Clk_Count0               |                3 |             10 |
+|  CLK100MHZ_IBUF_BUFG | UART_RX_1/r_Clk_Count[9]_i_2_n_0                 | UART_RX_1/r_Clk_Count[9]_i_1__0_n_0  |                7 |             10 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/print_index                        | bubble_sort_1/print_index[7]_i_1_n_0 |                4 |             16 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/cycles_taken                       |                                      |                4 |             16 |
+|  CLK100MHZ_IBUF_BUFG |                                                  |                                      |               13 |             20 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/FSM_onehot_bs_SM_Main[6]_i_1_n_0   |                                      |               12 |             23 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/Q[2]                               |                                      |                8 |             29 |
+|  CLK100MHZ_IBUF_BUFG | bubble_sort_1/sort_num                           |                                      |               29 |             40 |
++----------------------+--------------------------------------------------+--------------------------------------+------------------+----------------+
+
+

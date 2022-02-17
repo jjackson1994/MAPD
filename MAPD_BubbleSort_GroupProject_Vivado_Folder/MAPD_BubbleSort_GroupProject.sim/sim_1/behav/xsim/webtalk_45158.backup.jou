@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Feb 17 14:14:30 2022
+# Process ID: 45158
+# Current directory: /home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.sim/sim_1/behav/xsim/xsim.dir/tb_top_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.sim/sim_1/behav/xsim/xsim.dir/tb_top_behav/webtalk/xsim_webtalk.tcl -notrace

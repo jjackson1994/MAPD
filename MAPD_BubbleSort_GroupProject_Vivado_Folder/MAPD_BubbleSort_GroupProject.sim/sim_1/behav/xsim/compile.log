@@ -1,0 +1,135 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/MAPD/Group_Project/bs_working_jake/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/bs_working_jake/bs_working_jake.srcs/sources_1/new/UART_RX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'UART_RX'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/bs_working_jake/bs_working_jake.srcs/sources_1/new/UART_TX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'UART_TX'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/bs_working_jake/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/bs_working_jake/bs_working_jake.srcs/sources_1/new/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'top'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/bs_working_jake/bs_working_jake.srcs/sources_1/new/tb_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/bs_working_jake/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/bs_working_jake/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/bs_working_jake/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/bs_working_jake/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/bs_working_jake/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+ERROR: [VRFC 10-3801] use <= to assign to signal 'r_dv_count' [/home/daniel/MAPD/bs_working_jake/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd:94]
+ERROR: [VRFC 10-3782] unit 'bs' ignored due to previous errors [/home/daniel/MAPD/bs_working_jake/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd:27]
+INFO: [VRFC 10-3070] VHDL file '/home/daniel/MAPD/bs_working_jake/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd' ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/bs_working_jake/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+ERROR: [VRFC 10-3801] use <= to assign to signal 'r_dv_count' [/home/daniel/MAPD/bs_working_jake/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd:94]
+ERROR: [VRFC 10-3782] unit 'bs' ignored due to previous errors [/home/daniel/MAPD/bs_working_jake/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd:27]
+INFO: [VRFC 10-3070] VHDL file '/home/daniel/MAPD/bs_working_jake/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd' ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/bs_working_jake/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/UART_RX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'UART_RX'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/UART_TX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'UART_TX'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'top'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/tb_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/tb_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_top'
+ERROR: [VRFC 10-1412] syntax error near process [/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/tb_top.vhd:69]
+ERROR: [VRFC 10-3763] type error near 'main' ; expected type ' void' [/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/tb_top.vhd:69]
+ERROR: [VRFC 10-1412] syntax error near process [/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/tb_top.vhd:71]
+ERROR: [VRFC 10-3518] mismatch on label ; expected 'main' [/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/tb_top.vhd:30]
+ERROR: [VRFC 10-3782] unit 'behavioral' ignored due to previous errors [/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/tb_top.vhd:10]
+INFO: [VRFC 10-3070] VHDL file '/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/tb_top.vhd' ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/tb_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/tb_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+ERROR: [VRFC 10-1412] syntax error near ) [/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd:168]
+ERROR: [VRFC 10-3782] unit 'bs' ignored due to previous errors [/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd:27]
+INFO: [VRFC 10-3070] VHDL file '/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd' ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/tb_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+ERROR: [VRFC 10-1412] syntax error near else [/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd:215]
+ERROR: [VRFC 10-3782] unit 'bs' ignored due to previous errors [/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd:27]
+INFO: [VRFC 10-3070] VHDL file '/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd' ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+ERROR: [VRFC 10-2989] 'bs_sm_maijn' is not declared [/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd:234]
+ERROR: [VRFC 10-3782] unit 'bs' ignored due to previous errors [/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd:27]
+INFO: [VRFC 10-3070] VHDL file '/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd' ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD/withFunctionalityofrecievingArraySize/bs_working_jake_copy/bs_working_jake.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/UART_RX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'UART_RX'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/UART_TX.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'UART_TX'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'top'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/tb_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/daniel/MAPD_BubbleSort_GroupProject/MAPD_BubbleSort_GroupProject.srcs/sources_1/new/bubble_sort.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bubble_sort'
