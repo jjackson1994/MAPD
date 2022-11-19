@@ -4,10 +4,8 @@
 ## Project: Bubble Sort Algorithm and the UART transitter/reciver 
 
 * [Project Report](https://github.com/jjackson1994/MAPD/blob/main/MAPD_Project___Group_4_Final.pdf)
-
+* [PC Jupytyer Notebook]https://github.com/jjackson1994/MAPD/blob/main/PythonPerformanceComaparison.ipynb
 ## Hardware Setup: ARTY A7 FPGA
-
-
 
 Our board:  
 xc7a35tcsg324-1
