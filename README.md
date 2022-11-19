@@ -1,5 +1,5 @@
 # MAPD A: FPGA VHDL Project in Vivaldo
-file:///home/jake/Downloads/fpga_banner.jpg![image](https://user-images.githubusercontent.com/23053125/202862370-d2751405-4f29-4fec-8ecd-fce3687b269a.png)
+![image](https://user-images.githubusercontent.com/23053125/202862370-d2751405-4f29-4fec-8ecd-fce3687b269a.png)
 
 ## Hardware Setup
 
