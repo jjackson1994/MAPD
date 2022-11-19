@@ -1,7 +1,7 @@
 # MAPD A: FPGA VHDL Project in Vivaldo
 ![image](https://user-images.githubusercontent.com/23053125/202862370-d2751405-4f29-4fec-8ecd-fce3687b269a.png)
 
-## Project: Bubble Sort Algorithm and the UART transitter/reciver 
+## Project: Bubble Sort Algorithm and the UART transmitter/reciver 
 
 * [Project Report](https://github.com/jjackson1994/MAPD/blob/main/MAPD_Project___Group_4_Final.pdf)
 * [PC Juptyer Notebook](https://github.com/jjackson1994/MAPD/blob/main/PythonPerformanceComaparison.ipynb)
