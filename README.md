@@ -5,6 +5,7 @@
 
 * [Project Report](https://github.com/jjackson1994/MAPD/blob/main/MAPD_Project___Group_4_Final.pdf)
 * [PC Juptyer Notebook](https://github.com/jjackson1994/MAPD/blob/main/PythonPerformanceComaparison.ipynb)
+* [Project Files](https://github.com/jjackson1994/MAPD/tree/main/MAPD_BubbleSort_GroupProject_Vivado_Folder/MAPD_BubbleSort_GroupProject.srcs/sources_1/new)
 ## Hardware Setup: ARTY A7 FPGA
 
 Our board:  
