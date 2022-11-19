@@ -1,7 +1,13 @@
 # MAPD A: FPGA VHDL Project in Vivaldo
 ![image](https://user-images.githubusercontent.com/23053125/202862370-d2751405-4f29-4fec-8ecd-fce3687b269a.png)
 
-## Hardware Setup
+## Project: Bubble Sort Algorithm and the UART transitter/reciver 
+
+* [Project Report](https://github.com/jjackson1994/MAPD/blob/main/MAPD_Project___Group_4_Final.pdf)
+
+## Hardware Setup: ARTY A7 FPGA
+
+
 
 Our board:  
 xc7a35tcsg324-1
